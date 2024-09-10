@@ -1,0 +1,1 @@
+- change db port from 3307 to 3306 in .env file

@@ -1,0 +1,158 @@
+.title {
+    width: 100%;
+    max-width: 854px;
+    margin: 0 auto;
+}
+
+.caption {
+    width: 100%;
+    max-width: 854px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.youtube_container {
+    width: 100%;
+    max-width: 854px;
+    min-width: 230px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+
+/*  VIDEO PLAYER CONTAINER
+############################### */
+.vid-container {
+    position: relative;
+    padding-bottom: 52%;
+    padding-top: 30px;
+    height: 0;
+}
+
+.vid-container iframe,
+.vid-container object,
+.vid-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*  VIDEOS PLAYLIST
+ ############################### */
+.vid-list-container {
+    width: 98%;
+    overflow: overlay;
+    margin-top: 2px;
+    margin-left: 2px;
+    padding-bottom: 2px;
+
+}
+
+.vid-list {
+    width: 600px;
+    position: relative;
+    top:0;
+    left: 0;
+}
+
+.vid-item {
+    display: block;
+    width: 148px;
+    height: 148px;
+    float: left;
+    margin: 0;
+    padding: 2px;
+}
+
+.thumb {
+    /*position: relative;*/
+    overflow:hidden;
+    height: 84px;
+}
+
+.thumb img {
+    width: 100%;
+    position: relative;
+    top: -13px;
+}
+
+.vid-item .desc {
+    color: black;
+    font-size: 11px;
+    margin-top:2px;
+}
+
+.vid-item:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+.arrows {
+
+    position:relative;
+    width: 100%;
+}
+
+.arrow-left {
+
+    position: absolute;
+    background: #777;
+    padding: 15px;
+    left: -25px;
+    top: -130px;
+    z-index: 99;
+    cursor: pointer;
+    background-image: url("../img/artist_but3.png");
+}
+
+.arrow-right {
+    background-image: url("../img/artist_but3.png");
+    color: #fff;
+    position: absolute;
+    background: #777;
+    padding: 15px;
+    right: -25px;
+    top: -130px;
+    z-index:100;
+    cursor: pointer;
+}
+
+.arrow-left:hover {
+    background: #CC181E;
+}
+
+.arrow-right:hover {
+    background: #cc181e;
+}
+
+
+@media (max-width: 624px) {
+    /*body {*/
+    /*    margin: 15px;*/
+    /*}*/
+    .caption {
+        margin-top: 40px;
+    }
+    .vid-list-container {
+        padding-bottom: 2px;
+    }
+
+    /* reposition left/right arrows */
+    .arrows {
+        position:relative;
+        margin: 0 auto;
+        width:96px;
+    }
+    .arrow-left {
+        left: 0;
+        top: -17px;
+    }
+
+    .arrow-right {
+        right: 0;
+        top: -17px;
+    }
+}

@@ -1,0 +1,31 @@
+td .dropdown-menu li {
+    cursor: pointer;
+}
+
+.form-inline-button {
+    margin-top: 24px;
+}
+
+.label {
+    cursor: pointer;
+}
+
+.label:hover {
+    opacity: 0.8;
+}
+
+.sort-arrow {
+    font-size: 40px;
+    cursor: grab;
+    float: left;
+    margin-right: 10px;
+}
+
+.btn-show
+{
+    margin-right: 4px;
+}
+
+.main-title {
+    font-weight: bold
+}

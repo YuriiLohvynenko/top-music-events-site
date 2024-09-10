@@ -1,0 +1,22 @@
+.dropdown-menu > li > form > #mySubmitStyle{
+    line-height: 25px;
+    color: #2a2e36;
+    margin:4px;
+    border-radius:3px;
+    border:none;
+    background:none;
+    text-align:left;
+    width: 93%;
+    padding:3px 20px;
+
+
+}
+
+.dropdown-menu>li>form >#mySubmitStyle:hover, .dropdown-menu>li>form >#mySubmitStyle:focus, .dropdown-submenu:hover>li>form >#mySubmitStyle, .dropdown-submenu:focus>#mySubmitStyle {
+    color: #1b1e24;
+    text-decoration: none;
+    background-color: #eff2f3;
+    background-image: none;
+    outline: none;
+}
+
